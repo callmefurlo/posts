@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-color: white;
+  color: black;
+
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 200px;
+    opacity: 0.2;
+}
+
+h1 {
+  background-color: white;
+  margin: 0;
+  padding: 10px 0px 0px 0px;
+
+}
+
+.nav {
+	margin: 0;
+	background-color: white;
+	color: black;
+	list-style: none;
+	text-align: center;
+	padding: 0px 0px 3px 0px;
+
+}
+
+.nav > li {
+		display: inline-block;
+		padding: 0 25px 0 25px;
+
+}
+
+.nav > li > a {
+		text-decoration: none;
+		color: black;
+
+}
+
+.nav > li > a:hover {
+  color: #e6e6e6;
+
+}
